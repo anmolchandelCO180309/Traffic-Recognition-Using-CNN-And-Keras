@@ -25,8 +25,11 @@ pixels or vectors within an image based on specific rules.
 
 # Proposed System/Methodology /Architecture
 • Exploration of the dataset
+
 • Construction of a CNN model
+
 • Training and validation of the model
+
 • Validation of the model using a test dataset
 
 # Results

@@ -10,16 +10,21 @@ Dataset Link - https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-
 This project required:
 • Keras - Keras is an open-source software framework that offers a Python interface for artificial
 neural networks. Keras serves as a gateway to the TensorFlow library.
+
 • Matplotlib - Matplotlib is a plotting library for the Python programming language and its numerical
 mathematics extension NumPy
+
 • Scikit-learn - Scikit-learn is a free software machine learning library for the Python programming
 language. It features various classification, regression and clustering algorithms including support
 vector machines
+
 • Pandas - pandas is a software library written for the Python programming language for data
 manipulation and analysis
+
 • PIL - Python Imaging Library is a free and open-source additional library for the Python
 programming language that adds support for opening, manipulating, and saving many different
 image file formats
+
 • Image classification - Image classification is the process of categorizing and labeling groups of
 pixels or vectors within an image based on specific rules.
 

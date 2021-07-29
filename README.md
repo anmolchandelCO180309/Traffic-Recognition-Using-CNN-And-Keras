@@ -2,7 +2,9 @@
 In this project, we created a deep neural network model which will be capable of classifying traffic signs image into several categories. We will be able to read and interpret traffic signs using this model, which is a critical job for all autonomous cars.
 
 # Dataset Used
-For this project, we used the Kaggle-hosted public dataset Traffic Signs Dataset. The collection in this dataset includes almost 50,000 pictures of various traffic signals. Additionally, it was divided into 43 distinct classes. The dataset was very varied; some classes contained many pictures, while others have few. The dataset was about 300 MB in size. The dataset was divided into a train folder contained pictures for each class, it also contained a test folder of images for testing our model.
+For this project, we used the Kaggle-hosted public dataset Traffic Signs Dataset. The collection in this dataset includes almost 50,000 pictures of various traffic signals. Additionally, it was divided into 43 distinct classes. The dataset was very varied; some classes contained many pictures, while others have few. The dataset was about 300 MB in size. The dataset was divided into a train folder contained pictures for each class, it also contained a test folder of images for testing our model. 
+
+Dataset Link - https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
 # Prerequisites For The Project
 This project required:

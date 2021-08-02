@@ -4,11 +4,11 @@ from tkinter import *
 from PIL import ImageTk, Image
 
 import numpy
-#load the trained model to classify sign
+#To classify sign load the trained model.
 from keras.models import load_model
 model = load_model('traffic_classifier.h5')
 
-#dictionary to label all traffic signs class.
+#dictionary for labelling all traffic signs classes.
 classes = { 1:'Speed limit (20km/h)',
             2:'Speed limit (30km/h)',      
             3:'Speed limit (50km/h)',       
@@ -53,10 +53,10 @@ classes = { 1:'Speed limit (20km/h)',
            42:'End of no passing',      
            43:'End no passing veh > 3.5 tons' }
                  
-#initialise GUI
+#initializing GUI
 top=tk.Tk()
 top.geometry('800x600')
-top.title('Traffic sign classification')
+top.title('Traffic Sign Recognition')
 top.configure(background='#CDCDCD')
 
 label=Label(top,background='#CDCDCD', font=('arial',15,'bold'))
@@ -76,7 +76,7 @@ def classify(file_path):
    
 
 def show_classify_button(file_path):
-    classify_b=Button(top,text="Classify Image",command=lambda: classify(file_path),padx=10,pady=5)
+    classify_b=Button(top,text="Classify the Sign",command=lambda: classify(file_path),padx=10,pady=5)
     classify_b.configure(background='#364156', foreground='white',font=('arial',10,'bold'))
     classify_b.place(relx=0.79,rely=0.46)
 
@@ -94,13 +94,13 @@ def upload_image():
     except:
         pass
 
-upload=Button(top,text="Upload an image",command=upload_image,padx=10,pady=5)
+upload=Button(top,text="Upload the traffic sign for classification/recognition",command=upload_image,padx=10,pady=5)
 upload.configure(background='#364156', foreground='white',font=('arial',10,'bold'))
 
 upload.pack(side=BOTTOM,pady=50)
 sign_image.pack(side=BOTTOM,expand=True)
 label.pack(side=BOTTOM,expand=True)
-heading = Label(top, text="Know Your Traffic Sign",pady=20, font=('arial',20,'bold'))
+heading = Label(top, text="Know The traffic Signs",pady=20, font=('arial',20,'bold'))
 heading.configure(background='#CDCDCD',foreground='#364156')
 heading.pack()
 top.mainloop()
